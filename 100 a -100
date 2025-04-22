@@ -1,0 +1,21 @@
+package contageregressiva;
+
+import java.util.Scanner;
+
+public class ContageRegressiva {
+
+    public static void main(String[] args) {
+        //variavel
+        Scanner ler=new Scanner(System.in);
+        int cont;
+        
+        //dados
+        cont=100;
+        while(cont>=-100){
+            System.out.println("Contador: "+cont);
+        cont--;
+        }
+        
+    }
+    
+}
