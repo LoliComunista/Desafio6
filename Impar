@@ -1,0 +1,25 @@
+package javaapplication112;
+
+import java.util.Scanner;
+
+public class JavaApplication112 {
+
+    public static void main(String[] args) {
+
+        Scanner ler = new Scanner(System.in);
+        //Variavel
+        int soma, cont;
+        //Dados
+        soma = 0;
+        //Processo
+        for (cont = 1; cont <= 200; cont++) {
+            if (cont % 2 != 0) {
+                soma += cont;
+            }
+        }
+        //Saida
+        System.out.println("A soma dos números ímpares de 1 a 200 é: " + soma);
+
+    }
+
+}
