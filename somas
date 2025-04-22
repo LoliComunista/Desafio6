@@ -1,0 +1,22 @@
+  //variaveis
+        Scanner ler = new Scanner(System.in);
+        int num, soma;
+
+        //dados
+        num = -1;
+        soma = 0;
+
+        //processo
+        while (num != 0) {
+            System.out.println("insira um número(inira zero para realiar a soma)");
+            num = ler.nextInt();
+            if (num != 0) {
+                soma += num;
+            }
+
+        }
+        //saida5
+        System.out.println("Soma: " + soma);
+    }
+
+}
