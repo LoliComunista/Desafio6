@@ -1,0 +1,25 @@
+package pares1a20;
+
+public class Pares1a20 {
+
+    public static void main(String[] args) {
+        //variavel
+        int cont, soma;
+
+        //dados
+        cont = 1;
+        soma =  0;
+
+        //processo
+        while (cont <= 20) {
+          if(cont%2==0){
+            soma+=cont;
+            
+          }
+          cont++;
+        }
+        //processo
+        System.out.println("Soma dos pares: "+soma);
+    }
+
+}
