@@ -1,0 +1,25 @@
+
+package tabuada;
+
+import java.util.Scanner;
+
+public class Tabuada {
+
+    public static void main(String[] args) {
+       //Variavel
+       Scanner ler = new Scanner(System.in);
+        System.out.print("Digite o número para calcular a tabuada: ");
+        
+        int numero, inicio, fim, cont;
+        //dados
+        numero = ler.nextInt();
+        inicio = 1;
+        fim = 20;
+        //Pocesso
+        for (cont = inicio; cont <= fim; cont++) {
+            //Saida
+            System.out.println(numero + " x " + cont + " = " + (numero * cont));
+        }
+    }
+
+}
